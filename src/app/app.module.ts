@@ -21,6 +21,7 @@ import { RegistroScreenComponent } from './screens/registro-screen/registro-scre
 import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
 import { HeaderAppComponent } from './partials/header-app/header-app.component';
 import { LeftSidebarComponent } from './partials/left-sidebar/left-sidebar.component';
+import { FooterAppComponent } from './partials/footer-app/footer-app.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { LeftSidebarComponent } from './partials/left-sidebar/left-sidebar.compo
     RegistroScreenComponent,
     HomeScreenComponent,
     HeaderAppComponent,
-    LeftSidebarComponent
+    LeftSidebarComponent,
+    FooterAppComponent
   ],
   imports: [
     BrowserModule,
