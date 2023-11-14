@@ -46,7 +46,7 @@ export class HomeScreenComponent implements OnInit {
   }
 
   public saberMas(){
-
+    this.router.navigate(["bases-promocion"]);
   }
 
   public obtenerCodigos(){
